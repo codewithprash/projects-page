@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="description" content="Check out some of my latest projects and get in touch if you're interested in working together.
         you can explore my projects and discover my development skills, From web development to mobile apps" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="og:image" content="/sc.png" />
+        <meta name="og:image" content="/frame.png" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <main className={styles.main}>
