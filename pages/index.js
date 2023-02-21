@@ -14,6 +14,7 @@ export default function Home() {
         you can explore my projects and discover my development skills, From web development to mobile apps" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="og:image" content="/frame.png" />
+        <meta name="keywords" content="codewithprash, latest projects, cwp, web development to mobile apps "/>
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <main className={styles.main}>
