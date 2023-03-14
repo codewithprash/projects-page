@@ -47,6 +47,11 @@ export default function Home() {
          
           
           <div className={styles.thirteen}>
+          <a
+              href="https://www.linkedin.com/in/codewithprash/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
             <Image
               src="/logo.svg"
               alt="p"
@@ -54,10 +59,29 @@ export default function Home() {
               height={31}
               priority
             />
+            </a>
           </div>
         </div>
 
+        
+
         <div className={styles.grid}>
+
+        <a
+            href="https://github.com/codewithprash/openchat"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={inter.className}>
+              OpenChat <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>
+            Chrome Extension for Sending messages using WhatsApp web without saving a phone number.
+            </p>
+          </a>
+
+
           <a
             href="https://cwp.pages.dev/yourgrade/"
             className={styles.card}
@@ -111,6 +135,19 @@ export default function Home() {
             </h2>
             <p className={inter.className}>
             Mental Health Tracker
+            </p>
+          </a>
+          <a
+            href="https://mht.pages.dev"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={inter.className}>
+              Calculator <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>
+            A working calculator application with a user-friendly interface
             </p>
           </a>
         </div>
